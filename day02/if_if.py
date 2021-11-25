@@ -12,6 +12,7 @@ else:
     else:
         print("10이하의 홀수입니다.")
 
+
 # if ~ elif ~ else문 호환
 if num > 10 and num % 2 == 0:
     print("10보다 큰 짝수입니다.")
