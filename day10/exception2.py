@@ -1,10 +1,9 @@
-#다중 try ~ except 구문
+# 다중 try ~ except 구문
 
 try:
     data = [50, 70, 30, 90]
-    # print(data[0])
-    #print(data[4])  #IndexError
-
+    #print(data[0])
+    #print(data[4])  # IndexError
     x = int(input("정수 입력(0~3까지) : "))
     print(data[x])
 except IndexError:

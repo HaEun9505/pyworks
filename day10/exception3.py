@@ -1,4 +1,4 @@
-#try ~ exception ~ finally
+# try ~ except ~ finally
 
 def div(x, y):
     try:
@@ -9,5 +9,5 @@ def div(x, y):
     finally:
         print("여기는 반드시 수행되는 구간입니다.")
 
-# div(2, 1)
+#div(2, 1)
 div(2, 0)

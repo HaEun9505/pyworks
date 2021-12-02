@@ -1,4 +1,3 @@
-from day09.class_lib.airplane import AirPlane
 from day09.class_lib.supersonic_airplane import SuperSonicAirPlane
 
 sa = SuperSonicAirPlane()

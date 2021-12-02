@@ -1,10 +1,10 @@
-#Dog 클래스 만들기
+# Dog 클래스 만들기
 class Dog:
-    # tricks = []
+    #tricks = []   #클래스 리스트
 
     def __init__(self, name):
         self.name = name
-        self.tricks = []    #인스턴스 멤버 리스트
+        self.tricks = []  #인스턴스 멤버 리스트
 
     def add_trick(self, trick):
         self.tricks.append(trick)

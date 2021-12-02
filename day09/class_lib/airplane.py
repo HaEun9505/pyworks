@@ -1,6 +1,7 @@
-#Airplane 클래스 정의
+# AirPlane 클래스 정의
 
 class AirPlane:
+
     def take_off(self):
         print("비행기가 이륙합니다.")
 
